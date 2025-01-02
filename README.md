@@ -21,7 +21,7 @@ Motion planning determines a collision-free path for a robot in 3D space, essent
    - $\mathcal{C} \subset \mathbb{R}^3$: 3D space bounded by $[x_{min}, x_{max}], [y_{min}, y_{max}], [z_{min}, z_{max}]$.
    - $\mathcal{C}_{free} \subset \mathcal{C}$: Free space without obstacles.
 
-2. **Start & Goal**: $\mathbf{x}_s$ and $\mathbf{x}_\tau$ in $\mathcal{C}_{free}$.
+2. **Start & Goal**: $x_s$ and $x_\tau$ in $\mathcal{C}_{free}$.
 
 3. **Path**: Continuous function $\rho: [0, 1] \to \mathcal{C}_{free}$, minimizing cost $J(\rho)$.
 
