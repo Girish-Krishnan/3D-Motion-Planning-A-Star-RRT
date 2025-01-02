@@ -19,7 +19,7 @@ Motion planning determines a collision-free path for a robot in 3D space, essent
 
 1. **Configuration Space**: 
    - $\mathcal{C} \subset \mathbb{R}^3$: 3D space bounded by $[x_{min}, x_{max}], [y_{min}, y_{max}], [z_{min}, z_{max}]$.
-   - Free space: $\mathcal{C}_{free} = \mathcal{C} \backslash \mathcal{C}_{obs}$.
+   - Free space: $\mathcal{C}_{\text{free}} = \mathcal{C} \backslash \mathcal{C}_{\text{obs}}$.
 
 2. **Start & Goal**: $\mathbf{x}_s, \mathbf{x}_{\tau} \in \mathcal{C}_{free}$.
 
