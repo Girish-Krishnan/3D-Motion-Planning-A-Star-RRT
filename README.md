@@ -50,8 +50,12 @@ Motion planning determines a collision-free path for a robot in 3D space, essent
 ### RRT Algorithm
 
 1. **Sampling**: Randomly sample $\mathbf{x}_{rand} \in \mathcal{C}$.
-2. **Nearest Neighbor**: Find ![x_near](./report_imgs/x_near.png)
-3. **Steering**: Move toward $\mathbf{x}_{rand}$ by step $q$: ![x_new](./report_imgs/x_new.png)
+2. **Nearest Neighbor**: Find $\mathbf{x}_{near}$:
+
+    ![x_near](./report_imgs/x_near.png)
+3. **Steering**: Move toward $\mathbf{x}_{rand}$ by step $q$:
+   
+   ![x_new](./report_imgs/x_new.png)
 4. **Collision Check**: Verify path to $\mathbf{x}_{new}$ is collision-free.
 5. **Goal Bias**: With probability $p$, sample goal directly.
 
